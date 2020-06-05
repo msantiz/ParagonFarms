@@ -318,7 +318,7 @@ padding:1em;
 
  
 
-<center><font size = "5" face = "roboto" color = "black">-----------------------------------------֎----------------------------------------<br><br><br>
+<center><font size = "5" face = "roboto" color = "black">------------------------֎------------------------<br><br><br>
 
 Current Specials</center><br>
 
