@@ -283,30 +283,31 @@ padding:3em;
 <div class = "about">
 
 
-<font size = "5" face = "roboto" color = "black"><br><font size = "8" color = "black"><u>Susan Moessner</u></font><br><br>Born in Germany, Susan began her riding career at a<br>
-young age and competed in Dressage and Jumping for<br>
-five years before moving to the United States. During her<br>
-long career, she has competed at Preliminary, Intermediate,<br>
-and Advanced level three-day events, and Novice to<br>
-Advanced horse trials. During the 2019 season she<br>
-earned her USDF Silver Medal by competing the Prix St.<br>
-Georges and Intermediare I tests. For the 2020 season she has<br>
-plans to compete Grand Prix and earn her Gold Medal.<br>
-Sue has trained under many international riders and<br>
-coaches, including Lendon Gray, Captain Mark Phillips,<br>
-Jim Graham, Stuart Young-Black, David and Karen O'Connor,<br>
-Jimmy Wofford, Mike Huber, Kerry Miliken, Denny Emmerson,<br>
-Ralph Hill, Bruce Mandeville, Johnathan Holling, and Leslie<br>
-Grant-Law. This training has helped her to be long-listed with<br>
-the United States Equestrian Team in 2000 and again in 2004,<br>
-and also to earn her a spot on the USEA Top 50 riders list.<br><br>
-Sue has coached students up to Advanced level Eventing and Fourth<br>
-level Dressage. Whether a beginner or an upper-level rider, Sue<br>
-will provide instruction to help students improve their skills<br>
-and reach any competitive goals they may have. Here at Paragon<br>
-Farms, there is an emphasis on producing well-trained, safe<br>
-riders capable of producing quality horses by following a proper<br>
-training process.</font>
+<font size = "5" face = "roboto" color = "black"><br><font size = "8" color = "black"><u>Susan Moessner</u></font><br><br><p>Born in Germany, Susan began her riding career at a
+young age and competed in Dressage and Jumping for
+five years before moving to the United States. During her
+long career, she has competed at Preliminary, Intermediate,
+and Advanced level three-day events, and Novice to
+Advanced horse trials. During the 2019 season she
+earned her USDF Silver Medal by competing the Prix St.
+Georges and Intermediare I tests. For the 2020 season she has
+plans to compete Grand Prix and earn her Gold Medal.
+Sue has trained under many international riders and
+coaches, including Lendon Gray, Captain Mark Phillips,
+Jim Graham, Stuart Young-Black, David and Karen O'Connor,
+Jimmy Wofford, Mike Huber, Kerry Miliken, Denny Emmerson,
+Ralph Hill, Bruce Mandeville, Johnathan Holling, and Leslie
+Grant-Law. This training has helped her to be long-listed with
+the United States Equestrian Team in 2000 and again in 2004,
+and also to earn her a spot on the USEA Top 50 riders list.</p>
+
+<p>Sue has coached students up to Advanced level Eventing and Fourth
+level Dressage. Whether a beginner or an upper-level rider, Sue
+will provide instruction to help students improve their skills
+and reach any competitive goals they may have. Here at Paragon
+Farms, there is an emphasis on producing well-trained, safe
+riders capable of producing quality horses by following a proper
+training process.</p></font>
 </div>
 
 <!--<ul>
