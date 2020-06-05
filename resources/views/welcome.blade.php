@@ -386,7 +386,7 @@ and places emphasis on keeping the horse through the back and light off the aids
 Susan is known for her ability to work with an array of riders and horses, including<br>
 young and difficult horses. She specializes in Eventing and Dressage.<br><br>
 
------------------------------------------֎----------------------------------------<br><br>Select Accomplishments</center><br>
+---------֎---------<br><br>Select Accomplishments</center><br>
 
  
 
