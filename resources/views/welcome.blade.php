@@ -7,9 +7,10 @@
 
         <div class = "header">
 
-        <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-
+        <h1> <center><font size = "8" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+<div class="picture">
 <img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
+</div>
 
 <div class = "flex">
 
@@ -73,7 +74,7 @@ background: white;
 
 color: blue;
 
-font-size = 30px;
+border-radius: 25px;
 
 }
 
@@ -86,6 +87,7 @@ font-size = 30px;
               top: 17px;
 
               left: 17px;
+              border-radius: 25px;
 
 }
 
@@ -103,9 +105,9 @@ font-size = 30px;
 
   overflow: hidden;
 
-  background-color: #333;
+  background-color: #808080;
 
-  font-family: Arial;
+  font-family: Verdana;
 
 }
 
@@ -239,7 +241,7 @@ font-size = 30px;
 
 body{
 
-background-color: 	#C0C0C0;
+background-color: 	#4169E1;
 
 }
 
@@ -378,7 +380,7 @@ padding:1em;
 
 <br><br><br>
 
-<center><font size = "5" face = "roboto" color = "black">Paragon Farms Equestrian Center, owned by Susan Moessner, is located in Ann Arbor, Michigan.<br>
+<center><font size = "5" face = "Palatino" color = "black">Paragon Farms Equestrian Center, owned by Susan Moessner, is located in Ann Arbor, Michigan.<br>
 
 The program strives to bring out the best in each horse and rider,<br>
 and places emphasis on keeping the horse through the back and light off the aids.<br><br>
@@ -386,7 +388,7 @@ and places emphasis on keeping the horse through the back and light off the aids
 Susan is known for her ability to work with an array of riders and horses, including<br>
 young and difficult horses. She specializes in Eventing and Dressage.<br><br>
 
----------֎---------<br><br>Select Accomplishments</center><br>
+>>>>>>>>>֎<<<<<<<<<<br><br>Select Accomplishments</center><br>
 
  
 
@@ -412,7 +414,7 @@ young and difficult horses. She specializes in Eventing and Dressage.<br><br>
 
 <div class = "box">
 
-<ul><font face = "roboto">
+<ul><font face = "Palatino">
 
 <li>USDF Silver Medalist</li>
 
@@ -422,7 +424,7 @@ young and difficult horses. She specializes in Eventing and Dressage.<br><br>
 
 <div class = "box">
 
-<ul><font face = "roboto">
+<ul><font face = "Palatino">
 
 <li>Five-Star Eventer</li>
 
@@ -432,7 +434,7 @@ young and difficult horses. She specializes in Eventing and Dressage.<br><br>
 
 <div class = "box">
 
-<ul><font face = "roboto">
+<ul><font face = "Palatino">
 
 <li>USEA Top 50 Riders</li>
 
@@ -566,6 +568,31 @@ img{vertical-align: middle;}
 
 }
 
+@media only screen and (max-width: 1150px){
+  .list{
+    flex-direction: column;
+  }
+
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1.34em;
+    margin-block-end: 1.34em;
+  }
+
+  .horse{
+    position: relative;
+    margin-right: 45px;
+    margin-bottom: 40px;
+  }
+
+  ul{
+    text-align: center;
+    list-style: inside;
+    margin-right: 65px;
+  }
+}
+
  
 
 .list {
@@ -608,6 +635,10 @@ img{vertical-align: middle;}
 
               }-->
 
+
+img{
+  border: 7px solid black;
+}
              
 
 </style>

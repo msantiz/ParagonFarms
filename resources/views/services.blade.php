@@ -7,10 +7,10 @@
 
 <div class = "header">
 
-<h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-
-<img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
-
+<h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+    <div class="picture">
+    <img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+    </div>
 <div class = "flex">
 
 <div class="navbar">
@@ -73,7 +73,7 @@ background: white;
 
 color: blue;
 
-font-size = 30px;
+border-radius: 25px;
 
 }
 
@@ -86,7 +86,7 @@ font-size = 30px;
               top: 17px;
 
               left: 17px;
-
+              border-radius: 25px;
 }
 
  
@@ -103,9 +103,9 @@ font-size = 30px;
 
   overflow: hidden;
 
-  background-color: #333;
-
-  font-family: Arial;
+  background-color: #808080;
+    
+      font-family: Verdana;
 
 }
 
@@ -247,7 +247,7 @@ font-size = 30px;
 
 body{
 
-background-color: #C0C0C0;
+  background-color: 	#4169E1;
 
 }
 
@@ -256,6 +256,31 @@ background-color: #C0C0C0;
 border-style:solid;
 border-color:black;
 padding:1em;
+}
+
+
+@media only screen and (max-width: 1150px){
+  .list{
+    flex-direction: column;
+  }
+
+.picture{
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1.34em;
+  margin-block-end: 1.34em;
+}
+
+.horse{
+  position: relative;
+  margin-right: 45px;
+  margin-bottom: 40px;
+}
+
+}
+
+img{
+border: 7px solid black;
 }
 
 </style>
@@ -268,7 +293,7 @@ padding:1em;
 
 <br><br>
 
-<center><font size = "5" face = "roboto" color = "black">We offer a variety of professional equine services including:</center><br>
+<center><font size = "5" face = "Palatino" color = "black">We offer a variety of professional equine services including:</center><br>
 
 <div class = "list">
 
@@ -318,7 +343,7 @@ padding:1em;
 
  
 
-<center><font size = "5" face = "roboto" color = "black">------------------------֎------------------------<br><br><br>
+<center><font size = "5" face = "Palatino" color = "black">------------------------֎------------------------<br><br><br>
 
 Current Specials</center><br>
 

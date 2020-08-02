@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <div class = "header">
 
-<h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+<h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
 
-<img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
+<div class="picture">
+<img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+</div>
 
 <div class = "flex">
 
@@ -72,7 +74,7 @@ background: white;
 
 color: blue;
 
-font-size = 30px;
+border-radius: 25px;
 
 }
 
@@ -85,9 +87,9 @@ font-size = 30px;
               top: 17px;
 
               left: 17px;
+              border-radius: 25px;
 
 }
-
  
 
 .flex {
@@ -102,9 +104,9 @@ font-size = 30px;
 
   overflow: hidden;
 
-  background-color: #333;
+  background-color: #808080;
 
-  font-family: Arial;
+  font-family: Verdana;
 
 }
 
@@ -238,7 +240,7 @@ font-size = 30px;
 
 body{
 
-background-color: #C0C0C0;
+  background-color: 	#4169E1;
 
 }
 
@@ -266,37 +268,37 @@ padding:1em;
 
               <div>
 
-                             <font size = "5" face = "roboto"><u><b>Address</b></u></font><br>
+                             <font size = "5" face = "Palatino"><u><b>Address</b></u></font><br>
 
-                             <font size = "4" face = "roboto">Paragon Farms Equestrian Center<br>
+                             <font size = "4" face = "Palatino">Paragon Farms Equestrian Center<br>
 
                              3500 S Wagner Rd.<br>
 
-                             Ann Arbor, MI 48103</font>
+                             Ann Arbor, MI 48103</font><br><br><br>
 
               </div>
 
               <div>
 
-                             <font size ="5" face = "roboto"><u><b>Phone</b></u></font><br>
+                             <font size ="5" face = "Palatino"><u><b>Phone</b></u></font><br>
 
-                             <font size = "4" face = "roboto">(734)-846-1779<br>
+                             <font size = "4" face = "Palatino">(734)-846-1779<br>
 
-                             (734)-668-6709</font>
-
-              </div>
-
-              <div>
-
-                             <font size = "5" face = "roboto"><u><b>E-mail</b></u></font><br>
-
-                             <font size = "4" face = "roboto">paragonfarms@aol.com<br></font>
+                             (734)-668-6709</font><br><br><br>
 
               </div>
 
               <div>
 
-              <font size = "5" face = "roboto"><u><b>Social Media</b></u></font><br><br>
+                             <font size = "5" face = "Palatino"><u><b>E-mail</b></u></font><br>
+
+                             <font size = "4" face = "Palatino">paragonfarms@aol.com<br></font><br><br>
+
+              </div>
+
+              <div>
+
+              <font size = "5" face = "Palatino"><u><b>Social Media</b></u></font><br><br>
 
                              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -305,19 +307,24 @@ padding:1em;
                              <a href ="https://www.instagram.com/" class ="fa fa-instagram"target="_blank"></a>
 
                              <a href ="https://www.youtube.com/" class ="fa fa-youtube"target="_blank"></a>
-
+                             <br><br><br>
 </div>
 
 </div><br><br><br>
 
  
-
-<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.051793659105!2d-83.80150704945663!3d42.234706450900035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb07b63ee6147%3A0xb1b3eeb7e27fbe3b!2s3500%20S%20Wagner%20Rd%2C%20Ann%20Arbor%2C%20MI%2048103!5e0!3m2!1sen!2sus!4v1570818183701!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></center><br><br>                           
-
+<div class="google-maps">
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.051793659105!2d-83.80150704945663!3d42.234706450900035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cb07b63ee6147%3A0xb1b3eeb7e27fbe3b!2s3500%20S%20Wagner%20Rd%2C%20Ann%20Arbor%2C%20MI%2048103!5e0!3m2!1sen!2sus!4v1570818183701!5m2!1sen!2sus" width="300" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>                         
+</div>
  
+
+ <div style="overflow-x:auto;">
+ <?php $name = $email = $phone = $content ="";?>
 <div class = "boxes">
-<form action = "{{url('/contact')}}" method = "post">
+<form action = "{{url('/contact.html')}}" method = "post">
 {{csrf_field()}}
+
+
 <div class = "form-group">
     <label>Name*</label><br>
     <input type = "text" size = "50" name = "name" class = "form-control">
@@ -329,15 +336,15 @@ padding:1em;
 </div>
 
 <div class = "form-group">
-    <label>Phone Number</label><br>
+    <label>Phone Number*</label><br>
     <input type = "phone" size = "50" name = "phone" class = "form-control">
 </div>
 
 <div class = "form-group">
-    <label>Message:</label><br>
+    <label>Message*</label><br>
     <textarea name = "content" class = "form-control"></textarea>
 </div>
-<pre>                                   <button type ="submit" class = "btn btn-primary">Submit</button></pre>
+                                  <div class="submit-section" style="display: flex margin-left: 80%;"> <button type ="submit" class = "btn btn-primary">Submit</button></div>
 </form>
               
 </div>
@@ -354,8 +361,24 @@ padding:1em;
 
 <style>
 
-input[type=text], select, input[type=email], input[type=phone]{
+.google-maps{
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
 
+.google-maps iframe{
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 75% !important;
+height: 75% !important;
+}
+
+input[type=text], select, input[type=email], input[type=phone]{
+              position: relative;
               width: 100%;
 
               padding: 12px;
@@ -377,6 +400,7 @@ input[type=text], select, input[type=email], input[type=phone]{
 textarea{
   width: 100%;
   height: 150px;
+  position: relative;
 
               padding: 12px;
 
@@ -397,6 +421,7 @@ textarea{
 
 input[type=submit]{
               background-color: #4CAF50;
+              position: relative;
 
               color: white;
 
@@ -421,7 +446,7 @@ input[type=submit]:hover{
  
 
 .form-group{
-
+              position: relative;
               padding: 20px;
 
 }
@@ -431,10 +456,11 @@ input[type=submit]:hover{
 .contact {
 
               display: flex;
+              position: relative;
+              
 
               justify-content: space-around;
-
- 
+margin-left: 45px;
 
               }
 
@@ -463,7 +489,7 @@ input[type=submit]:hover{
  
 
 .fa-facebook{
-
+position: relative;
               background: #3B5998;
 
               color: white;
@@ -473,7 +499,7 @@ input[type=submit]:hover{
  
 
 .fa-instagram{
-
+  position: relative;
               background: purple;
 
               color: white;
@@ -483,7 +509,7 @@ input[type=submit]:hover{
  
 
 .fa-youtube{
-
+  position: relative;
               background: red;
 
               color: white;
@@ -492,9 +518,39 @@ input[type=submit]:hover{
 
  
 
- 
+@media only screen and (max-width: 1150px){
 
- 
+
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1.34em;
+    margin-block-end: 1.34em;
+  }
+
+  .horse{
+    position: relative;
+    margin-right: 45px;
+    margin-bottom: 40px;
+  }
+
+  .contact {
+
+flex-direction: column;
+text-align: center;
+margin-left: 0px;
+  }
+
+  .submit-section{
+    color: white;
+  }
+
+}
+
+img{
+  border: 7px solid black;
+}
+    
 
  
 

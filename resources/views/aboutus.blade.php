@@ -8,9 +8,11 @@
 
 <div class = "header">
 
-<h1> <center><font size = "10" face ="Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+<h1> <center><font size = "10" face ="Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
 
-<img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
+<div class="picture">
+<img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+</div>
 
 <div class = "flex">
 
@@ -68,15 +70,13 @@
 
 padding: 20px;
 
-margin: 2px;
-
 text-align: center;
 
 background: white;
 
 color: blue;
 
-font-size = 30px;
+border-radius: 25px;
 
 }
 
@@ -89,6 +89,8 @@ font-size = 30px;
               top: 17px;
 
               left: 17px;
+              border: 7px solid black;
+              border-radius: 25px;
 
 }
 
@@ -106,9 +108,9 @@ font-size = 30px;
 
   overflow: hidden;
 
-  background-color: #333;
+  background-color: #808080;
 
-  font-family: Arial;
+  font-family: Verdana;
 
 }
 
@@ -242,7 +244,7 @@ font-size = 30px;
 
 body{
 
-background-color: #C0C0C0;
+  background-color: #4169E1;
 
 }
 
@@ -266,6 +268,8 @@ padding:3em;
   justify-content: center;
 }
 
+
+
 </style>
 
  
@@ -283,7 +287,7 @@ padding:3em;
 <div class = "about">
 
 
-<font size = "5" face = "roboto" color = "black"><br><font size = "8" color = "black"><u>Susan Moessner</u></font><br><br><p>Born in Germany, Susan began her riding career at a
+<font size = "5" face = "Palatino" color = "black"><br><font size = "8" color = "black"><u>Susan Moessner</u></font><br><br><p>Born in Germany, Susan began her riding career at a
 young age and competed in Dressage and Jumping for
 five years before moving to the United States. During her
 long career, she has competed at Preliminary, Intermediate,
@@ -323,6 +327,33 @@ training process.</p></font>
 
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 </div>
+
+<style>
+
+
+@media only screen and (max-width: 1150px){
+  .list{
+    flex-direction: column;
+  }
+
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1.34em;
+    margin-block-end: 1.34em;
+  }
+
+  .horse{
+    position: relative;
+    margin-right: 45px;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+</style>
+
 </body>
 
 </div>

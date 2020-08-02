@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class = "header">
 
-<h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-
-<img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
+<h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+    <div class="picture">
+    <img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+    </div>
 
 <div class = "flex">
 
@@ -72,7 +73,7 @@ background: white;
 
 color: blue;
 
-font-size = 30px;
+border-radius: 25px;
 
 }
 
@@ -85,7 +86,7 @@ font-size = 30px;
               top: 17px;
 
               left: 17px;
-
+              border-radius: 25px;
 }
 
  
@@ -102,9 +103,9 @@ font-size = 30px;
 
   overflow: hidden;
 
-  background-color: #333;
-
-  font-family: Arial;
+  background-color: #808080;
+    
+      font-family: Verdana;
 
 }
 
@@ -238,7 +239,7 @@ font-size = 30px;
 
 body{
 
-background-color: #C0C0C0;
+  background-color: 	#4169E1;
 
 }
 
@@ -265,6 +266,27 @@ padding:1em;
 .photo{
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1150px){
+
+.picture{
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1.34em;
+  margin-block-end: 1.34em;
+}
+
+.horse{
+  position: relative;
+  margin-right: 45px;
+  margin-bottom: 40px;
+}
+
+}
+
+img{
+border: 7px solid black;
 }
 
 </style>
@@ -314,9 +336,7 @@ padding:1em;
   <img class="thumbnail" src="../images/CobblestoneUSEA19-2251.jpg" alt="Cob19">
 </a>
  
-<a target="_blank" href="../images/COBBLEUSEA19BEG-NOV-OP-STA-RF-150.jpg">
-  <img class="thumbnail" src="../images/COBBLEUSEA19BEG-NOV-OP-STA-RF-150.jpg" alt="Cob19">
-</a>
+
 
 <a target="_blank" href="../images/COBBLEUSEA19PREOPXCRF-10.jpg">
   <img class="thumbnail" src="../images/COBBLEUSEA19PREOPXCRF-10.jpg" alt="Cob19">
@@ -324,11 +344,11 @@ padding:1em;
 
 <a target="_blank" href="../images/COBBUSEA2018NOVOPENARF-251.jpg">
   <img class="thumbnail" src="../images/COBBUSEA2018NOVOPENARF-251.jpg" alt="Cob18">
-</a><br><br>
+</a>
 
 <a target="_blank" href="../images/DSC_5628.jpg">
   <img class="thumbnail" src="../images/DSC_5628.jpg" alt="Cob14">
-</a>
+</a><br><br>
 
 <a target="_blank" href="../images/HoneyRunHT-1220.jpg">
   <img class="thumbnail" src="../images/HoneyRunHT-1220.jpg" alt="Hr">
@@ -348,12 +368,12 @@ padding:1em;
 
 <a target="_blank" href="../images/SpringFling-0417.jpg">
   <img class="thumbnail" src="../images/SpringFling-0417.jpg" alt="SF">
-</a><br><br>
+</a>
 
 
 <a target="_blank" href="../images/artiehome.jpg">
   <img class="thumbnail" src="../images/artiehome.jpg" alt="Artiehome">
-</a>
+</a><br><br>
 
 
 <a target="_blank" href="../images/artieocala.jpg">
@@ -374,11 +394,11 @@ padding:1em;
 
 <a target="_blank" href="../images/crunch.jpg">
   <img class="thumbnail" src="../images/crunch.jpg" alt="crunch">
-</a><br><br>
+</a>
 
 <a target="_blank" href="../images/diva.jpg">
   <img class="thumbnail" src="../images/diva.jpg" alt="diva">
-</a>
+</a><br><br>
 
 <a target="_blank" href="../images/kalid.jpg">
   <img class="thumbnail" src="../images/kalid.jpg" alt="Kalid">
@@ -398,11 +418,11 @@ padding:1em;
 
 <a target="_blank" href="../images/tikidr.jpg">
   <img class="thumbnail" src="../images/tikidr.jpg" alt="tikidr">
-</a><br><br>
+</a>
 
 <a target="_blank" href="../images/tikirich.jpg">
   <img class="thumbnail" src="../images/tikirich.jpg" alt="tikirich">
-</a>
+</a><br><br>
 
 <a target="_blank" href="../images/tikisj.jpg">
   <img class="thumbnail" src="../images/tikisj.jpg" alt="tikisj">
@@ -431,6 +451,11 @@ padding:1em;
 <a target="_blank" href="../images/SpringFling-0427.jpg">
   <img class="thumbnail" src="../images/SpringFling-0427.jpg" alt="SF">
 </a>
+
+<a target="_blank" href="../images/COBBLEUSEA19BEG-NOV-OP-STA-RF-150.jpg">
+  <img class="thumbnail" src="../images/COBBLEUSEA19BEG-NOV-OP-STA-RF-150.jpg" alt="Cob19">
+</a>
+
 </div>
 </div>
 

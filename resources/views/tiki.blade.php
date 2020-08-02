@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class = "header">
 
-    <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-    
-    <img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
-    
+<h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+    <div class="picture">
+    <img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+    </div>
     <div class = "flex">
     
     <div class="navbar">
@@ -74,7 +74,7 @@
     
     color: blue;
     
-    font-size = 30px;
+    border-radius: 25px;
     
     }
     
@@ -87,6 +87,7 @@
                   top: 17px;
     
                   left: 17px;
+                  border-radius: 25px;
     
     }
     
@@ -104,9 +105,9 @@
     
       overflow: hidden;
     
-      background-color: #333;
+      background-color: #808080;
     
-      font-family: Arial;
+    font-family: Verdana;
     
     }
     
@@ -240,9 +241,54 @@
     
     body{
     
-    background-color: #C0C0C0;
+      background-color: 	#4169E1;
     
     }
+
+    @media only screen and (max-width: 1150px){
+
+.picture{
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1.34em;
+  margin-block-end: 1.34em;
+}
+
+.horse{
+  position: relative;
+  margin-right: 45px;
+  margin-bottom: 40px;
+}
+
+.lenni{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.len{
+    
+    display: flex;
+    justify-content: center;
+  }
+
+.l{
+  text-align: center;
+  padding-left: 0px;
+  }
+
+  .boxy-box{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+}
+
+img{
+border: 7px solid black;
+}
     
     </style>
     
@@ -250,7 +296,7 @@
     
     <body>
     
-    <br><center><font size = "6" face = "roboto" color = "black"><b>Tiki</b></font></center>
+    <center><font size = "5" face = "Palatino" color = "black"><font size = "8" face = "roboto" color = "black"><b>Satin Mystique</b></font><br><br>Coming Soon!</font></center>
      <!-- Fonts -->
      <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     </body>

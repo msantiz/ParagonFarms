@@ -8,9 +8,11 @@
 
 <div class = "header">
 
-<h1> <center><font size = "10" face ="Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+<h1> <center><font size = "10" face ="Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
 
-<img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
+<div class="picture">
+<img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+</div>
 
 <div class = "flex">
 
@@ -75,7 +77,7 @@ background: white;
 
 color: blue;
 
-font-size = 30px;
+border-radius: 25px;
 
 }
 
@@ -88,6 +90,7 @@ font-size = 30px;
               top: 17px;
 
               left: 17px;
+              border-radius: 25px;
 
 }
 
@@ -105,9 +108,9 @@ font-size = 30px;
 
   overflow: hidden;
 
-  background-color: #333;
+  background-color: #808080;
 
-  font-family: Arial;
+  font-family: Verdana;
 
 }
 
@@ -241,7 +244,7 @@ font-size = 30px;
 
 body{
 
-background-color: #C0C0C0;
+background-color: 	#4169E1;
 
 }
 
@@ -264,7 +267,7 @@ background-color: #C0C0C0;
 <iframe src="https://calendar.google.com/calendar/embed?src=6vo39rfcbcbntp1btgp39em5v4%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 </div>
-
+</center>
  
 
 <style>
@@ -277,9 +280,29 @@ background-color: #C0C0C0;
 
 }
 
+@media only screen and (max-width: 1150px){
+
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1.34em;
+    margin-block-end: 1.34em;
+  }
+
+  .horse{
+    position: relative;
+    margin-right: 45px;
+    margin-bottom: 40px;
+  }
+}
+
+img{
+  border: 7px solid black;
+}
+
 </style>
 
-</center>
+
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">

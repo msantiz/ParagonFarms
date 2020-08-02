@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Log;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -65,17 +65,9 @@ Route::get('/sully.html', function () {
 });
 
 
-
-
-use Illuminate\Http\Request;
-use App\Mail\ContactMail;
-use Illuminate\Support\Facades\Mail;
-
 Route::get('/contact.html', function(){
     return view('contactus');
 });
 
-Route::post('contact', function(Request $request){
-    Mail::send(new ContactMail($request));
-    return view('welcome');
-});
+Route::post('/contact.html', 'ContactController@store');
+

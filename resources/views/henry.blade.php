@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class = "header">
 
-    <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-    
-    <img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
-    
+    <h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+    <div class="picture">
+    <img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+    </div>
     <div class = "flex">
     
     <div class="navbar">
@@ -72,7 +72,7 @@
     
     color: blue;
     
-    font-size = 30px;
+    border-radius: 25px;
     
     }
     
@@ -85,6 +85,7 @@
                   top: 17px;
     
                   left: 17px;
+                  border-radius: 25px;
     
     }
     
@@ -102,9 +103,9 @@
     
       overflow: hidden;
     
-      background-color: #333;
+      background-color: #808080;
     
-      font-family: Arial;
+      font-family: Verdana;
     
     }
     
@@ -238,7 +239,7 @@
     
     body{
     
-    background-color: #C0C0C0;
+      background-color: 	#4169E1;
     
     }
 
@@ -285,6 +286,53 @@ padding:1em;
 .boxy-box{
   display: flex;
   justify-content: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+@media only screen and (max-width: 1150px){
+
+.picture{
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1.34em;
+  margin-block-end: 1.34em;
+}
+
+.horse{
+  position: relative;
+  margin-right: 45px;
+  margin-bottom: 40px;
+}
+
+.lenni{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.len{
+    
+    display: flex;
+    justify-content: center;
+  }
+
+.l{
+  text-align: center;
+  padding-left: 0px;
+  }
+
+  .boxy-box{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+}
+
+img{
+border: 7px solid black;
 }
 
     </style>
@@ -302,7 +350,7 @@ padding:1em;
 
     <div class = "l"><br><br>
 
-<font size = "5" face = "roboto" color = "black"><font size = "8" face = "roboto" color = "black"><b>Final Appeal</b></font><br><br>Age: 4<br><br>Height: 16.1 HH<br><br>
+<font size = "5" face = "Palatino" color = "black"><font size = "8" face = "roboto" color = "black"><b>Final Appeal</b></font><br><br>Age: 4<br><br>Height: 16.1 HH<br><br>
     Breed: Thoroughbred<br><br>Sex: Gelding<br><br>Color: Bay</font>
 
     </div>
@@ -313,33 +361,33 @@ padding:1em;
 <div class = "Box">
     <div class = "words">
 
-    <font size = "5" face = "roboto" color = "black">
+    <font size = "5" face = "Palatino" color = "black">
  
-    RRP ELIGIBLE!!!<br>
-    Final Appeal, or Henry, as he is fondly known, is a bay Thoroughbred gelding<br>
-    out of Amwall. At age 4, he stands just over 16.1 HH and may have a bit more<br>
-    growing to do. His bloodlines include proven winners such as Mr. Prospector and<br>
-    Two Punch.<br><br>
+  
+    <p>Final Appeal, or Henry, as he is fondly known, is a bay Thoroughbred gelding
+    out of Amwall. At age 4, he stands just over 16.1 HH and may have a bit more
+    growing to do. His bloodlines include proven winners such as Mr. Prospector and
+    Two Punch.</p>
 
-    Henry has been let down and is being re-trained by Susan Moessner of Paragon<br>
-    Farms Equestrian Center. While he has only been worked under saddle on the flat,<br>
-    he has shown a talent for jumping during free jumping sessions and has walked<br>
-    over some logs and into the water jump. With so much suspension, Henry would make<br>
-    a lovely Dressage horse, but he is quite forward, and it is suspected that he<br>
-    would make a great eventer! He is very bold and less spooky than you would expect<br>
-    from a young horse.<br><br>
+    <p>Henry has been let down and is being re-trained by Susan Moessner of Paragon
+    Farms Equestrian Center. While he has only been worked under saddle on the flat,
+    he has shown a talent for jumping during free jumping sessions and has walked
+    over some logs and into the water jump. With so much suspension, Henry would make
+    a lovely Dressage horse, but he is quite forward, and it is suspected that he
+    would make a great eventer! He is very bold and less spooky than you would expect
+    from a young horse.</p>
 
-    Henry has no soundness issues and no vices. He stands quietly for the vet and<br>
-    farrier and will find a way a way to snuggle with anyone who walks by! He would<br>
-    make a great training prospect for an intermediate Dressage rider or Eventer. Henry<br>
-    still needs more training under his belt, but with his work ethic and ready-to-please<br>
-    attitude, he will learn quickly! Come take a look at this awesome young guy!</font>
+    <p>Henry has no soundness issues and no vices. He stands quietly for the vet and
+    farrier and will find a way a way to snuggle with anyone who walks by! He would
+    make a great training prospect for an intermediate Eventer. Henry
+    still needs more training under his belt, but with his work ethic and ready-to-please
+    attitude, he will learn quickly! Come take a look at this awesome young guy!</p></font>
 
 </div><br><br>
 
-<center><button type = "button"><a href="https://www.youtube.com/watch?v=ro_BiLM0-zc" target="_blank"><font size = "6" face = "roboto" color = "black">Final Appeal Sale Video</font></center></a></button>
+<center><button type = "button"><a href="https://www.youtube.com/watch?v=ro_BiLM0-zc" target="_blank"><font size = "6" face = "Palatino" color = "black">Final Appeal Sale Video</font></center></a></button>
 <br><br> 
-<center><button type = "button"><a href="https://www.pedigreequery.com/final+appeal5" target="_blank"><font size = "6" face = "roboto" color = "black">Final Appeal Pedigree</font></center></a></button>
+<center><button type = "button"><a href="https://www.pedigreequery.com/final+appeal5" target="_blank"><font size = "6" face = "Palatino" color = "black">Final Appeal Pedigree</font></center></a></button>
 <br><br>
 <center>   
 <a target="_blank" href="../images/henry.JPG">

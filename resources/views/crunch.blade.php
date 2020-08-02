@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class = "header">
 
-    <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-    
-    <img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
-    
+    <h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+    <div class="picture">
+    <img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+    </div>
     <div class = "flex">
     
     <div class="navbar">
@@ -72,7 +72,7 @@
     
     color: blue;
     
-    font-size = 30px;
+    border-radius: 25px;
     
     }
     
@@ -85,7 +85,7 @@
                   top: 17px;
     
                   left: 17px;
-    
+                  border-radius: 25px;
     }
     
      
@@ -102,9 +102,9 @@
     
       overflow: hidden;
     
-      background-color: #333;
+      background-color: #808080;
     
-      font-family: Arial;
+      font-family: Verdana;
     
     }
     
@@ -238,7 +238,7 @@
     
     body{
     
-    background-color: #C0C0C0;
+      background-color: 	#4169E1;
     
     }
 
@@ -248,6 +248,7 @@
     }
 
     .len{
+      
       display: flex;
       justify-content: flex-end;
     }
@@ -285,6 +286,52 @@ padding:1em;
 .boxy-box{
   display: flex;
   justify-content: center;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+@media only screen and (max-width: 1150px){
+
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1.34em;
+    margin-block-end: 1.34em;
+  }
+
+  .horse{
+    position: relative;
+    margin-right: 45px;
+    margin-bottom: 40px;
+  }
+
+  .lenni{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+  .len{
+      
+      display: flex;
+      justify-content: center;
+    }
+
+  .l{
+    text-align: center;
+    padding-left: 0px;
+    }
+
+  .boxy-box{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+}
+
+img{
+  border: 7px solid black;
 }
 
     </style>
@@ -302,7 +349,7 @@ padding:1em;
 
     <div class = "l"><br><br>
 
-<font size = "5" face = "roboto" color = "black"><font size = "8" face = "roboto" color = "black"><b>Mr Perfect Time</b></font><br><br>Age: 6<br><br>Height: 17.1 HH<br><br>
+<font size = "5" face = "Palatino" color = "black"><font size = "8" face = "Palatino" color = "black"><b>Mr Perfect Time</b></font><br><br>Age: 6<br><br>Height: 17.1 HH<br><br>
     Breed: Thoroughbred<br><br>Sex: Gelding<br><br>Color: Bay</font>
 
     </div>
@@ -313,29 +360,29 @@ padding:1em;
 <div class = "Box">
     <div class = "words">
 
-    <font size = "5" face = "roboto" color = "black">
+    <font size = "5" face = "Palatino" color = "black">
 
-    Mr Perfect Time, a.k.a. Crunch, is a 17.1 HH bay Thoroughbred gelding with a<br>
-    big head and an even bigger heart! Crunch is out of Perfect Circle and his<br>
-    bloodlines include proven winners such as Storm Cat and Mr. Prospector. At age<br>
-    6, he should be fully grown, but don’t let his size scare you! He is quite the<br>
-    teddy bear, always looking for treats and scratches. Crunch stands quietly on<br>
-    the cross ties and can be trail ridden and trailered without a problem. He is<br>
-    sound, has no vices, and is a perfect gentleman for the vet and farrier.<br><br>
+    <p>Mr Perfect Time, a.k.a. Crunch, is a 17.1 HH bay Thoroughbred gelding with a
+    big head and an even bigger heart! Crunch is out of Perfect Circle and his
+    bloodlines include proven winners such as Storm Cat and Mr. Prospector. At age
+    6, he should be fully grown, but don’t let his size scare you! He is quite the
+    teddy bear, always looking for treats and scratches. Crunch stands quietly on
+    the cross ties and can be trail ridden and trailered without a problem. He is
+    sound, has no vices, and is a perfect gentleman for the vet and farrier.</p>
 
-    Crunch has a lofty stride and would certainly excel in the Dressage ring. You<br>
-    would be easily noticed with such a flashy, big mover who loves to show off.<br>
-    He's already scored in the 70s at Training Level! Despite his flare in the<br>
-    ring, Crunch also loves to go out for a relaxing hack. If you love to trail<br>
-    ride or do a bit of showing, Mr Perfect Time would be perfect for you!</font>
+    <p>Crunch has a lofty stride and would certainly excel in the Dressage ring. You
+    would be easily noticed with such a flashy, big mover who loves to show off.
+    He's already scored in the 70s at Training Level! Despite his flare in the
+    ring, Crunch also loves to go out for a relaxing hack. If you love to trail
+    ride or do a bit of showing, Mr Perfect Time would be perfect for you!</p></font>
  
 
 
 </div><br><br>
 
-<center><button type = "button"><a href="https://www.youtube.com/watch?v=3KR3TfLJID0" target="_blank"><font size = "6" face = "roboto" color = "black">Mr Perfect Time Sale Video</font></center></a></button>
+<center><button type = "button"><a href="https://www.youtube.com/watch?v=3KR3TfLJID0" target="_blank"><font size = "6" face = "Palatino" color = "black">Mr Perfect Time Sale Video</font></center></a></button>
 <br><br> 
-<center><button type = "button"><a href="https://www.pedigreequery.com/mr+perfect+time" target="_blank"><font size = "6" face = "roboto" color = "black">Mr Perfect Time Pedigree</font></center></a></button>
+<center><button type = "button"><a href="https://www.pedigreequery.com/mr+perfect+time" target="_blank"><font size = "6" face = "Palatino" color = "black">Mr Perfect Time Pedigree</font></center></a></button>
 <br><br>
 <center>   
 <a target="_blank" href="../images/c.JPG">

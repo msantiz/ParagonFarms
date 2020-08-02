@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class = "header">
 
-    <h1> <center><font size = "10" face = "Georgia" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
-    
-    <img src = "../images/1.jpg" width="200" height="150" align = "left" class="horse">
+<h1> <center><font size = "10" face = "Trebuchet" color = "black"> <b>Paragon Farms Equestrian Center</b></font></center></h1>
+    <div class="picture">
+    <img src = "../images/1.jpg" width="185" height="135" align = "left" class="horse">
+    </div>
     
     <div class = "flex">
     
@@ -72,7 +73,7 @@
     
     color: blue;
     
-    font-size = 30px;
+    border-radius: 25px;
     
     }
     
@@ -85,7 +86,7 @@
                   top: 17px;
     
                   left: 17px;
-    
+                  border-radius: 25px;
     }
     
      
@@ -102,10 +103,9 @@
     
       overflow: hidden;
     
-      background-color: #333;
+      background-color: #808080;
     
-      font-family: Arial;
-    
+      font-family: Verdana;
     }
     
      
@@ -238,7 +238,7 @@
     
     body{
     
-    background-color: #C0C0C0;
+      background-color: 	#4169E1;
     
     }
 
@@ -285,8 +285,54 @@ padding:1em;
 .boxy-box{
   display: flex;
   justify-content: center;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
+@media only screen and (max-width: 1150px){
+
+.picture{
+  display: flex;
+  justify-content: center;
+  margin-block-start: 1.34em;
+  margin-block-end: 1.34em;
+}
+
+.horse{
+  position: relative;
+  margin-right: 45px;
+  margin-bottom: 40px;
+}
+
+.lenni{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+.len{
+    
+    display: flex;
+    justify-content: center;
+  }
+
+.l{
+  text-align: center;
+  padding-left: 0px;
+  }
+
+  .boxy-box{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+}
+
+img{
+border: 7px solid black;
+}
     </style>
     
      
@@ -302,7 +348,7 @@ padding:1em;
 
     <div class = "l"><br><br>
 
-<font size = "5" face = "roboto" color = "black"><font size = "8" face = "roboto" color = "black"><b>Lenni</b></font><br><br>Age: 15<br><br>Height: 16.1 HH<br><br>
+<font size = "5" face = "Palatino" color = "black"><font size = "8" face = "roboto" color = "black"><b>Lenni</b></font><br><br>Age: 15<br><br>Height: 16.1 HH<br><br>
     Breed: Thoroughbred<br><br>Sex: Gelding<br><br>Color: Chestnut</font>
 
     </div>
@@ -313,23 +359,23 @@ padding:1em;
 <div class = "Box">
     <div class = "words">
 
-    <font size = "5" face = "roboto" color = "black">
-    Lenni is a lovely mover with a great work ethic. He is looking for someone<br>
-    that will appreciate his loving personality and comfortable gaits. Lenni has been<br>
-    in training for several months and is now working Training level dressage. He<br>
-    trail rides, trailers, ties and can be clipped without a problem. He stands<br>
-    quietly for the vet and farrier, has clean legs and no soundness issues.<br><br>
+    <font size = "5" face = "Palatino" color = "black">
+    <p>Lenni is a lovely mover with a great work ethic. He is looking for someone
+    that will appreciate his loving personality and comfortable gaits. Lenni has been
+    in training for several months and is now working Training level dressage. He
+    trail rides, trailers, ties and can be clipped without a problem. He stands
+    quietly for the vet and farrier, has clean legs and no soundness issues.</p>
     
-    Lenni is not spooky and will be a very dependable mount for an amateur. The<br>
-    focus of his training has been on the flat, however he would also make a nice<br>
-    low-level eventer. Come take a look before someone else snatches this sweet boy!</font>
+    <p>Lenni is not spooky and will be a very dependable mount for an amateur. The
+    focus of his training has been on the flat, however he would also make a nice
+    low-level eventer. Come take a look before someone else snatches this sweet boy!</p></font>
 
  
 
 
 </div><br><br>
 
-<center><button type = "button"><a href="https://www.youtube.com/watch?v=1lkTzXLOpDs" target="_blank"><font size = "6" face = "roboto" color = "black">Lenni Sale Video</font></center></a></button>
+<center><button type = "button"><a href="https://www.youtube.com/watch?v=1lkTzXLOpDs" target="_blank"><font size = "6" face = "Palatino" color = "black">Lenni Sale Video</font></center></a></button>
 <br><br> 
 <center>   
 <a target="_blank" href="../images/IMG_0833.jpg">
