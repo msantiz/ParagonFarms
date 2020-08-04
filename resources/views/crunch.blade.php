@@ -362,7 +362,7 @@ img{
 
     <font size = "5" face = "Palatino" color = "black">
 
-    <p>Mr Perfect Time, a.k.a. Crunch, is a 17.1 HH bay Thoroughbred gelding with a
+    <p>Mr Perfect Time, a.k.a. Crunch, is a 17.2 HH bay Thoroughbred gelding with a
     big head and an even bigger heart! Crunch is out of Perfect Circle and his
     bloodlines include proven winners such as Storm Cat and Mr. Prospector. At age
     6, he should be fully grown, but don’t let his size scare you! He is quite the
@@ -372,9 +372,10 @@ img{
 
     <p>Crunch has a lofty stride and would certainly excel in the Dressage ring. You
     would be easily noticed with such a flashy, big mover who loves to show off.
-    He's already scored in the 70s at Training Level! Despite his flare in the
+    He's already scored in the 70s at Training Level! He also enjoys jumping and has
+    competed at several Eventing competitions. Despite his flare in the
     ring, Crunch also loves to go out for a relaxing hack. If you love to trail
-    ride or do a bit of showing, Mr Perfect Time would be perfect for you!</p></font>
+    ride or do a bit of low-level showing, Mr Perfect Time would be perfect for you!</p></font>
  
 
 

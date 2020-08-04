@@ -362,13 +362,16 @@ border: 7px solid black;
     <font size = "5" face = "Palatino" color = "black">
     <p>Lenni is a lovely mover with a great work ethic. He is looking for someone
     that will appreciate his loving personality and comfortable gaits. Lenni has been
-    in training for several months and is now working Training level dressage. He
-    trail rides, trailers, ties and can be clipped without a problem. He stands
-    quietly for the vet and farrier, has clean legs and no soundness issues.</p>
+    in training for several months and is now working Training level dressage and is jumping
+    at a Beginner Novice level. He has been cross country schooling several times and
+    really seems to enjoy himself! He trail rides, trailers, ties and can be clipped without a
+    problem. He stands quietly for the vet and farrier, has clean legs and no soundness issues.</p>
     
-    <p>Lenni is not spooky and will be a very dependable mount for an amateur. The
+    <p>Lenni is not spooky and will be a very dependable mount for an amateur. He is currently being ridden
+    by a young rider and is also in a lesson program with beginner riders. The
     focus of his training has been on the flat, however he would also make a nice
-    low-level eventer. Come take a look before someone else snatches this sweet boy!</p></font>
+    low-level Eventer; he certainly seems to have a fondness for jumping. Come take a look before
+    someone else snatches this sweet boy!</p></font>
 
  
 

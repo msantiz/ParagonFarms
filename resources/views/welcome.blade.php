@@ -382,11 +382,13 @@ padding:1em;
 
 <center><font size = "5" face = "Palatino" color = "black">Paragon Farms Equestrian Center, owned by Susan Moessner, is located in Ann Arbor, Michigan.<br>
 
-The program strives to bring out the best in each horse and rider,<br>
-and places emphasis on keeping the horse through the back and light off the aids.<br><br>
+The farm has a large indoor arena and an outdoor with a full set of fences.<br>
+There are plenty of trails to ride on and a few cross country fences as well.<br><br>
 
-Susan is known for her ability to work with an array of riders and horses, including<br>
-young and difficult horses. She specializes in Eventing and Dressage.<br><br>
+Susan accepts horses for training and in some cases, prepares them for sale.<br>
+She competes regularly in Eventing and Dressage and also provides coaching at those shows.<br>
+Riders of any age and level are welcome, and lesson horses are available to those without a horse.<br>
+Contact us today for more information about board or lessons- you'll be glad you did!<br><br>
 
 >>>>>>>>>֎<<<<<<<<<<br><br>Select Accomplishments</center><br>
 

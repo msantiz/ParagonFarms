@@ -370,17 +370,15 @@ border: 7px solid black;
     Two Punch.</p>
 
     <p>Henry has been let down and is being re-trained by Susan Moessner of Paragon
-    Farms Equestrian Center. While he has only been worked under saddle on the flat,
-    he has shown a talent for jumping during free jumping sessions and has walked
-    over some logs and into the water jump. With so much suspension, Henry would make
-    a lovely Dressage horse, but he is quite forward, and it is suspected that he
-    would make a great eventer! He is very bold and less spooky than you would expect
-    from a young horse.</p>
+    Farms Equestrian Center. He has been worked on the flat and over fances, and seems
+    to have a love of jumping. He recently compteted at his first Eventing Derby,
+    finishing third on his Dressage score. Henry is very bold, rarely spooks and will
+    likely excel in a competition home.</p>
 
     <p>Henry has no soundness issues and no vices. He stands quietly for the vet and
     farrier and will find a way a way to snuggle with anyone who walks by! He would
-    make a great training prospect for an intermediate Eventer. Henry
-    still needs more training under his belt, but with his work ethic and ready-to-please
+    make a great training prospect for an intermediate rider. Henry
+    still needs more training under his belt, but with his work ethic and eager-to-please
     attitude, he will learn quickly! Come take a look at this awesome young guy!</p></font>
 
 </div><br><br>
